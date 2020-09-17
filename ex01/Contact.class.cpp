@@ -20,5 +20,7 @@ class Contact {
 
 };
 
-int Contact::index {3};
+int Contact::index = 0;
+
+
 

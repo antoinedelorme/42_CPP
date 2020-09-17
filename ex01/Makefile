@@ -28,7 +28,8 @@ HEADERS = $(addprefix $(HEADERS_DIRECTORY), $(HEADERS_LIST))
 
 #########################################
 # Sources 
-SOURCES_LIST =	megaphone.cpp 
+SOURCES_LIST =	megaphone.cpp\
+				Contact.class.cpp
 	
 SOURCES_DIRECTORY = ./
 SOURCES = $(addprefix $(SOURCES_DIRECTORY), $(SOURCES_LIST))
